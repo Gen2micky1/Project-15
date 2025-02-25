@@ -210,6 +210,7 @@ a:any-link {
     background-color: var(--PURPLE-100);
     display: flex;
     flex-flow: column;
+    gap: 2rem;
     position: relative;
     padding: 9rem 1.25rem 5.5rem 1.25rem;
     background-image: url("./images/curve-2-mobile.svg");
@@ -228,7 +229,8 @@ a:any-link {
 }
 
 .value__content-list {
-  width: 100%;
+  max-width: 100%;
+  width: 335px;
   height: 233px;
   display: flex;
   flex-flow: column;
@@ -350,3 +352,6 @@ a:any-link {
   align-items: center;
   justify-content: space-between;
 }
+
+
+
