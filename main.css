@@ -83,7 +83,6 @@ h2 {
 html {
   scroll-behavior: smooth;
   font-size: 16px;
-  position: relative;
 }
 
 body {
@@ -313,7 +312,7 @@ body {
   flex-flow: column;
   align-items: center;
   gap: 3.5rem;
-  padding: 5rem auto;
+  padding: 5rem;
 }
 
 /* WORKIT LOGO */
@@ -339,6 +338,126 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  /* HEADER */
+  .workit__header {
+    min-height: 540px;
+    padding: 2rem 2.75rem 12.5rem 2.75rem;
+    
+    background-image: url("./images/curve-1-tablet.svg");
+  }
+
+  /* NAVIGATION */
+  .header__nav {
+    width: 680px;
+  }
+
+  /* HERO */
+  .header__hero-title {
+    max-width: 635px;
+    font: var(--TEXT-PRESET-1-TAB);
+  }
+
+  .header__hero-button {
+    width: 162px;
+    height: 56px;
+    font: var(--TEXT-PRESET-5);
+  }
+
+  .bg-pat-one,
+  .bg-pat-two-one,
+  .bg-pat-three {
+    display: block;
+    position: absolute;
+  }
+
+  .bg-pat-one {
+    top: 57px;
+    left: -225px;
+  }
+
+  .bg-pat-two-one {
+    top: 263px;
+    right: 0px;
+  }
+
+  /* HERO IMAGE */
+  .illustration__image {
+    top: 380px;
+  }
+
+  .illustration__image img {
+    max-width: 514.81px;
+  }
+
+  /* WORKIT VALUE */
+  .workit__value {
+      min-height: 731px;
+      padding: 11.8125rem 2.75rem 7.25rem 2.75rem;
+
+      background-image: url("./images/curve-2-tablet.svg");
+  }
+
+  .value__content-list {
+    flex-flow: row;
+    gap: 3.5rem;
+  }
+
+  /* WORKIT VALUE CONTENT */
+  .value__content-list-description {
+    gap: 1.75rem;
+  }
+
+  .value__content-list-title {
+    font: var(--TEXT-PRESET-3-TAB);
+    width: 576px;
+    text-align: left;
+  }
+
+  .value__content-list-text {
+    font: var(--TEXT-PRESET-4-TAB);
+    max-width: 576px;
+    text-align: left;
+  }
+
+  /* WORKIT CTA */
+.workit__cta {
+  padding: 17.5625rem 2.75rem 0rem 13.75rem;
+}
+
+.cta-content {
+  width: 504px;
+  height: 390px;
+  padding: 3rem;
+  align-items: flex-start;
+}
+
+/* CTA IMAGE */
+.cta__image {
+  bottom: 278px;
+  left: -36px;
+}
+
+.cta__content-title {
+  font: var(--TEXT-PRESET-2-TAB);
+}
+
+.cta__content-text {
+  font: var(--TEXT-PRESET-4-TAB);
+  max-width: 408px;
+  text-align: left;
+}
+
+/* CTA BUTTON */
+.cta__content-link {
+    width: 207px;
+    height: 56px;
+    font: var(--TEXT-PRESET-5);
+}
+
+.bg-pat-three {
+  top: 291px;
+  right: 14px;
+}
 
 }
 
